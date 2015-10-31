@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>
+{% include 'header.html' %}
+
+{{ contents | safe }}
+
+{% include 'footer.html' %}
+<script src="/js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.DS_Store
+.cache
+.sass-cache
+.tmphtml
+.~lock*
+Thumbs.db
+node_modules

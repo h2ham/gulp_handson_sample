@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp"
+  }
+}

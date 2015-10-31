@@ -1,0 +1,14 @@
+{
+  "source": "_resource",
+  "destination": "./.tmphtml",
+  "plugins": {
+    "metalsmith-ignore": [
+      "_layouts/**/*",
+      "**/*.scss"
+    ],
+    "metalsmith-templates": {
+      "engine": "swig",
+      "directory": "_resource/_layouts"
+    }
+  }
+}
